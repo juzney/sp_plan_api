@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 require('./src/database/db');
 app.use(express.json());
-app.use(require('./src/router/planeRouter'))
+app.use(require("/api", './src/router/planeRouter'))
 
 
 
